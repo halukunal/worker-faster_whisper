@@ -1,7 +1,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from faster_whisper import WhisperModel
 
-model_names = ["large-v3", "distil-large-v3"]
+model_names = ["large-v3", "turbo"]
 
 
 def load_model(selected_model):
